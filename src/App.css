@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+root {
+  background-color: #124559;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+li {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.projects-container {
+  padding: 40px 0;
+  background-color: #124559;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.projects-container-h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white; 
+}
+
+.project-card {
+  margin-bottom: 100px;
+  margin-left: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card-img {
+  max-width: 100%;
+  border-radius: 8px;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.project-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white; 
+  margin-bottom: 10px;
+}
+
+.project-card-text {
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.project-card .btn {
+  margin-right: 10px;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .project-card {
+    max-width: calc(50% - 20px);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    max-width: calc(33.33% - 20px);
   }
+}
+
+.intro-title {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.intro-text {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.portrait {
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  min-height: auto;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-title {
+  color: #fff;
+}
+
+.skills-table {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.skills-table .row {
+  margin-bottom: 10px;
+}
+
+.badge {
+  margin: 4px;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.blob {
+  height: fit-content;
+  float: left;
+}
+
+.button {
+  color: #fff;
+}
+
+.carousel-img {
+  max-width: 600px;
+  max-height: 500px;
+}
+
+.carousel-item {
+  text-align: center;
 }
