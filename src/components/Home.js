@@ -8,7 +8,7 @@ const Home = () => {
       <Col className="intro-col">
         <div className="intro-title">
           Full-Stack Web Developer</div>
-          <img src='blob.png' className='blob'></img>      
+          <img src='blob.png' alt='blob' className='blob'></img>      
         <p className="intro-text">    
           Hi, I'm Sarah.
           <br/>

@@ -6,7 +6,7 @@ import '../App.css';
 const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-      <Navbar.Brand className="logo" href="/"><img src='logo-no-background.svg'></img></Navbar.Brand>
+      <Navbar.Brand className="logo" href="/"><img src='logo-no-background.svg' alt='logo'></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
         <Nav className="mr-auto">

@@ -137,8 +137,8 @@ const CaseStudy = () => {
             Developer: Sarah Johnson<br/>
             Mentor: James Wilson
           </p>
-          <a href="https://github.com/SarJohnson/recipe-app" target='_blank' className='button'>GitHub Repository</a>
-          <a href="https://floating-basin-75047-0882723a8b64.herokuapp.com/" target='_blank' className='button'>App Hosted on Heroku</a>
+          <a href="https://github.com/SarJohnson/recipe-app" target='_blank' rel="noreferrer" className='button'>GitHub Repository</a>
+          <a href="https://floating-basin-75047-0882723a8b64.herokuapp.com/" target='_blank' rel="noreferrer" className='button'>App Hosted on Heroku</a>
         </Row>
 
       </Col>
