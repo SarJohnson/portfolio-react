@@ -2,8 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/portfolio-react",
+  "homepage": "https://dancing-ganache-5aeb21.netlify.app",
   "dependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -53,5 +54,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.12.0",
+    "@parcel/transformer-webmanifest": "^2.12.0",
+    "parcel": "^2.12.0"
   }
 }
