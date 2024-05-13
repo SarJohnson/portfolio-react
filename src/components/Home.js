@@ -14,7 +14,7 @@ const Home = () => {
           <br/>
           I am a web developer in Winter Haven, FL available for a full-time or part-time work (in person, hybrid, or remote).
           <br/>
-          <a href="Sarah-Johnson-Resume.pdf" class="button" download>Download my CV</a>
+          <a href="Sarah-Johnson-Resume.pdf" class="button" download>Download my Resume</a>
         </p>
       </Col>
     </Row>

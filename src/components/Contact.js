@@ -5,6 +5,7 @@ const Contact = () => {
   return (
     <div className='projects-container'>
       <h2 className='projects-container-h2'>Contact Me</h2>
+      <p style={{ textAlign: 'center'}}>Fill out this form to discuss potential opportunities, projects, or just to chat about the exciting world of coding!</p>
     <Row className="my-5 d-flex justify-content-center">
       <Col md={8} className="">
         <Form>

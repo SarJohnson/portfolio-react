@@ -10,6 +10,7 @@ const Projects = () => {
       description: 'This is a basic JavaScript pokedex, loaded from an external API, that allows users to select a Pokemon and view a modal describing that Pokemon. This website was created with HTML, CSS, and Javascript.',
       imageUrl: 'pokedex.png',
       githubUrl: 'https://github.com/SarJohnson/simple-js-app',
+      hasDemoUrl: true,
       demoUrl: 'https://sarjohnson.github.io/simple-js-app',
       hasCaseStudy: false, 
       caseStudyUrl: ''
@@ -20,6 +21,7 @@ const Projects = () => {
       description: 'This is a horror movie website that pulls information from my horror movie API. Users are able to find horror movies to watch and save their favorites to their profile. This website was created with HTML, CSS, Javascript, and React.',
       imageUrl: 'horrorflix.png',
       githubUrl: 'https://github.com/SarJohnson/myFlix-client',
+      hasDemoUrl: true,
       demoUrl: 'https://horrordeadbase.netlify.app',
       hasCaseStudy: false, 
       caseStudyUrl: ''
@@ -30,6 +32,7 @@ const Projects = () => {
       description: 'This is a remake of the horror movie website using Angular that allows users to access different horror movies to watch, and a short description of the movie, as well as allows users to save their favorite movies to their profile for later. This app was created with HTML, CSS, and TypeScript.',
       imageUrl: 'horrorflix-angular.png',
       githubUrl: 'https://github.com/SarJohnson/myFlix-Angular-client',
+      hasDemoUrl: true,
       demoUrl: 'https://sarjohnson.github.io/myFlix-Angular-client',
       hasCaseStudy: false, 
       caseStudyUrl: ''
@@ -39,6 +42,7 @@ const Projects = () => {
       description: 'This is a progressive web application that shows upcoming events, fetching this data from the Google Calendar API. The user is able to search for specific cities, expand event details, and view the data in a pie chart or scatter chart. This app was created with HTML, CSS, JavaScript, and React.',
       imageUrl: 'meet.png',
       githubUrl: 'https://github.com/SarJohnson/Meet',
+      hasDemoUrl: true,
       demoUrl: 'https://sarjohnson.github.io/Meet',
       hasCaseStudy: false, 
       caseStudyUrl: ''
@@ -48,7 +52,8 @@ const Projects = () => {
       description: 'This is a mobile app that allows users to chat with other users. Users can select a color scheme, send text messages, send their locations, take photos, and access their camera roll to send photos. This app was created with React Native and Javascript.',
       imageUrl: 'chat.png',
       githubUrl: 'https://github.com/SarJohnson/chat-app',
-      demoUrl: 'https://github.com/SarJohnson/chat-app',
+      hasDemoUrl: false,
+      demoUrl: '',
       hasCaseStudy: false, 
       caseStudyUrl: ''
     },{
@@ -57,6 +62,7 @@ const Projects = () => {
       description: 'This is a recipe app filled with my family recipes based on the cookbook my father created about my great grandmother. Users are able to log in, view all recipes, see info for each recipe, view tables according to recipe difficulty, and read stories about my family. This app was created with HTML, Python, and Django.',
       imageUrl: 'make-em-eat.png',
       githubUrl: 'https://github.com/SarJohnson/recipe-app',
+      hasDemoUrl: true,
       demoUrl: 'https://floating-basin-75047-0882723a8b64.herokuapp.com/',
       hasCaseStudy: true, 
       caseStudyUrl: '/case-study'
@@ -75,7 +81,9 @@ const Projects = () => {
                 <Card.Title className='project-card-title'>{project.title}</Card.Title>
                 <Card.Text className='project-card-text'>{project.description}</Card.Text>
                 <Button variant="secondary" href={project.githubUrl}>GitHub</Button>{' '}
-                <Button variant="secondary" href={project.demoUrl}>Demo</Button>
+                {project.hasDemoUrl && (
+                  <Button variant="secondary" href={project.demoUrl}>Demo</Button>
+                )}
                 {project.hasCaseStudy && (
                   <Button variant="secondary" href={project.caseStudyUrl}>Case Study</Button>
                 )}

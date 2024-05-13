@@ -10,6 +10,10 @@ li {
   color: white;
 }
 
+.case-p {
+  margin: 20px;
+}
+
 .projects-container {
   padding: 40px 0;
   background-color: #124559;
@@ -126,11 +130,11 @@ li {
   color: #fff;
 }
 
-.carousel-img {
+.card-img {
   max-width: 600px;
   max-height: 500px;
 }
 
-.carousel-item {
+.card-item {
   text-align: center;
 }
