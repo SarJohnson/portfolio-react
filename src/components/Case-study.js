@@ -47,7 +47,7 @@ const CaseStudy = () => {
             <Col>
                 <h3 style={{ color: 'white', textAlign: 'center' }}>Duration</h3>
                 <p style={{ textAlign: 'center', margin: '10px' }}>
-                This project took me longer than expected at almost an entire month to complete due to the diDiculties I experienced. Nevertheless, by completing the project I was able to gain confidence in both Django and my problem-solving capabilities.
+                This project took me longer than expected at almost an entire month to complete due to the difficulties I experienced. Nevertheless, by completing the project I was able to gain confidence in both Django and my problem-solving capabilities.
                 </p>
             </Col>
         </Row>
